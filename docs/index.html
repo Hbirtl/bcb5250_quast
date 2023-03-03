@@ -1,17 +1,51 @@
 <html>
-<head></head>
+<head>
+    <title>H Birtley - BCB5250</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
 <body>
-<p>bcb5250-quast</p>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">H Birtley - BCB5250</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home
+                        <span class="visually-hidden">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div style="margin:1em;width=60%;">
+    <div class="card border-primary mb-3" style="min-width: 60%; max-width: 60%; margin: auto;">
+        <div class="card-header">bcb5250-quast</div>
+        <div class="card-body">
+            <h4 class="card-title">3/1/23</h4>
+            <p class="card-text">This is a python program that can parse FASTA files and return a txt file
+                containing:</p>
+            <p class="card-text">
+            <ul>
+                <li>the number of contigs and the total length of them</li>
+                <li>the length of the largest contig</li>
+                <li>N50 value -- determined&nbsp;by adding the contigs in order, from smallest to largest, until the sum
+                    of the contigs is equal to half of the total length. The last contig added is the N50 value.
+                </li>
+            </ul>
+            </p>
+            <p class="card-text">When the program is run it will ask for the user to input a FASTA file.&nbsp;</p>
+        </div>
+    </div>
 
-<p>This is a python program that can parse FASTA files and return a txt file containing:</p>
 
-<ul>
-	<li>the number of contigs and the total length of them</li>
-	<li>the length of the largest contig</li>
-	<li>N50 value -- determined&nbsp;by adding the contigs in order, from smallest to largest, until the sum of the contigs is equal to half of the total length. The last contig added is the N50 value.</li>
-</ul>
-
-<p>When the program is run it will ask for the user to input a FASTA file.&nbsp;</p>
+</div>
 </body>
 </html>
-
