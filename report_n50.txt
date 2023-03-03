@@ -1,5 +1,0 @@
-
-number of contigs = 13
-The total length of the sequence = 179663
-The largest contig = 132140
-N50 = 132140
